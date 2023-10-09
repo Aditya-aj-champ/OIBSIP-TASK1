@@ -37,7 +37,7 @@
     outline: 0;
     width: 60px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 62px;
     
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
@@ -64,7 +64,7 @@ form .result input{
 form input.equal{
     width: 145px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 320px) {
     *{
         margin: 0;
         padding: 0;
@@ -80,7 +80,7 @@ form input.equal{
         align-items: center;
         padding-top: 30px; 
         font-size: small;
-        letter-spacing: 8px; 
+        letter-spacing: 2px; 
         
     }
     .box{
@@ -102,9 +102,9 @@ form input.equal{
     .calculator form input{
         border: 0;
         outline: 0;
-        width: 60px;
-        height: 60px;
-        border-radius: 10px;
+        width: 44px;
+        height: 44px;
+        border-radius: 62px;
         
         box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
         background: transparent;
@@ -130,5 +130,8 @@ form input.equal{
     }
     form input.equal{
         width: 145px;
+        display: inline;
+        align-items: center;
+        justify-content: center;
     }
 }
