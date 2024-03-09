@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     /* width:25vw;
-    height:auto ; */
+    height: auto ; */
 }
 .calculator form input{
     border: 0;
@@ -50,7 +50,7 @@
     cursor: pointer;
     margin: 10px;
 }
-.calculator form input:hover{
+.calculator form input: hover{
     box-shadow: -8px -8px 15px rgba(247, 4, 4, 0.1),5px 5px 15px rgba(35, 213, 12, 0.2);
     background: transparent;
 }
@@ -102,9 +102,8 @@ form input.equal{
         padding: 5px;
         border-radius: 10px;
         width: 80%;
-        
-    
     }
+    
     .calculator form input{
         border: 0;
         outline: 0;
@@ -119,7 +118,7 @@ form input.equal{
         cursor: pointer;
         margin: 5px;
     }
-    .calculator form input:hover{
+    .calculator form input: hover{
         box-shadow: -8px -8px 15px rgba(247, 4, 4, 0.1),5px 5px 15px rgba(35, 213, 12, 0.2);
         background: transparent;
     }
